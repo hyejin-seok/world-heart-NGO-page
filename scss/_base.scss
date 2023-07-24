@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+$font-main: 'Open Sans',
+sans-serif;
+$font-logo: 'Aclonica',
+sans-serif;
+$color-text: #32404e;
+$color-main: #b3404a;
+$color-bg: #fefefe;
+$color-nav: #fff5ee;
+$color-hover: #f77984;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-main;
+    color: $color-text;
+    background-color: $color-bg;
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a:link,
+    :visited {
+        color: $color-text;
+    }
+
+    a:hover {
+        color: $color-main;
+    }
+}
+
+@mixin sectionStyle {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+@mixin dataStyle {
+    width: 15%;
+    height: auto;
+    min-height: 150px;
+    background-color: $color-main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 1200px) {
+        width: 33.33%;
+    }
+
+    @media screen and (max-width: 470px) {
+        width: 80%;
+    }
+
+    .number {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.9rem;
+        color: $color-bg;
+    }
+
+    .unit {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        color: $color-bg;
+    }
+}
+
+@mixin headingStyle {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 50px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+
+    }
+
+    @media screen and (max-width: 505px) {
+        margin-top: 100px;
+    }
+}
