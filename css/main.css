@@ -22,7 +22,7 @@ body a:hover {
   color: #b3404a;
 }
 
-gheader {
+header {
   width: 100vw;
   height: 100px;
   display: flex;
@@ -35,7 +35,7 @@ gheader {
   z-index: 3;
   top: 0;
 }
-gheader nav {
+header nav {
   width: 80%;
   height: 100%;
   display: flex;
@@ -44,16 +44,16 @@ gheader nav {
   align-items: center;
 }
 @media (max-width: 1430px) {
-  gheader nav {
+  header nav {
     width: 95%;
   }
 }
 @media (max-width: 1024px) {
-  gheader nav {
+  header nav {
     width: 80%;
   }
 }
-gheader nav .main-menu {
+header nav .main-menu {
   width: 50%;
   height: 100%;
   display: flex;
@@ -63,19 +63,19 @@ gheader nav .main-menu {
   list-style: none;
 }
 @media (max-width: 1024px) {
-  gheader nav .main-menu {
+  header nav .main-menu {
     display: none;
   }
 }
-gheader nav .main-menu li {
+header nav .main-menu li {
   text-transform: uppercase;
   font-weight: 600;
 }
-gheader nav .navbar-search {
+header nav .navbar-search {
   cursor: pointer;
 }
 @media (max-width: 1024px) {
-  gheader nav .navbar-search {
+  header nav .navbar-search {
     display: none;
   }
 }
