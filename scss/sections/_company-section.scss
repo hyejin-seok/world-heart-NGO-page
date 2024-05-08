@@ -1,0 +1,72 @@
+.company-section {
+  @include sectionStyle;
+  min-height: 450px;
+  margin-top: 150px;
+
+  .company-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .company-text-box {
+      // width: 50%;
+      width: auto;
+      max-width: 600px;
+      height: auto;
+      min-height: 300px;
+      line-height: 1.5;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 50px 0 100px;
+
+      h3 {
+        @include headingStyle;
+      }
+
+      p {
+        font-size: 1.3rem;
+
+        @media screen and (max-width: 768px) {
+          font-size: 1rem;
+          padding: 0 30px;
+        }
+      }
+    }
+
+    .company-data-box {
+      width: 100%;
+      height: auto;
+      min-height: 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      @media screen and (max-width: 1200px) {
+        flex-wrap: wrap;
+      }
+
+      .company-data-case {
+        @include dataStyle;
+      }
+    }
+
+    .company-data-box::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -50px;
+      width: 0;
+      height: 0;
+      border-top: solid 50px $color-main;
+      border-left: solid 50px transparent;
+      border-right: solid 50px transparent;
+    }
+  }
+}

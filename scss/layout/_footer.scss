@@ -1,0 +1,16 @@
+footer {
+  background-color: $color-main;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  display: flex;
+  flex-direction: row;
+  color: $color-bg;
+  text-align: center;
+  font-size: 0.8rem;
+}

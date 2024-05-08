@@ -1,3 +1,13 @@
-@import 'base';
-@import 'layout';
-@import 'components';
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/hamburger-nav";
+@import "components/logo";
+@import "layout/footer";
+@import "layout/header";
+@import "sections/business-section";
+@import "sections/company-section";
+@import "sections/hero-section-image";
+@import "sections/hero-section";
+@import "sections/project-section";
+@import "sections/subscribe-section";
+@import "base";
