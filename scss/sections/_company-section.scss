@@ -1,7 +1,7 @@
 .company-section {
   @include sectionStyle;
   min-height: 450px;
-  margin-top: 150px;
+  margin-bottom: 100px;
 
   .company-container {
     width: 100%;
@@ -13,7 +13,6 @@
     position: relative;
 
     .company-text-box {
-      // width: 50%;
       width: auto;
       max-width: 600px;
       height: auto;
@@ -23,14 +22,16 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin: 50px 0 100px;
+      margin: 0 0 100px;
 
       h3 {
         @include headingStyle;
+        margin-top: 30px;
       }
 
       p {
         font-size: 1.3rem;
+        margin-top: 15px;
 
         @media screen and (max-width: 768px) {
           font-size: 1rem;

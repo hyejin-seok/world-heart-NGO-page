@@ -72,7 +72,7 @@
           <li><a href="#company-section">About Us</a></li>
           <li><a href="#business-section">Our Work</a></li>
           <li><a href="#project-section">Stories</a></li>
-          <li><a href="#">Take Actions</a></li>
+          <li><a href="#subscribe-section">Take Actions</a></li>
         </ul>
 
         <div class="navbar-btn cmn-btn">
@@ -82,11 +82,18 @@
                 ><span>Donate</span></a
               >
               <div class="dropdown-content dropdown-content-navbar">
-                <a class="donate-link" href="#">Donate Monthly</a>
-                <a class="donate-link" href="#">Donate Bimonthly</a>
-                <a class="donate-link" href="#">Donate Quarterly</a>
-                <a class="donate-link" href="#">Donate Yearly</a>
-                <a class="donate-link" href="#">Danate Once</a>
+                <a class="donate-link" onclick="createModal('Monthly')"
+                  >Donate Monthly</a
+                >
+                <a class="donate-link" onclick="createModal('Bimonthly')"
+                  >Donate Bimonthly</a
+                >
+                <a class="donate-link" onclick="createModal('Quarterly')"
+                  >Donate Quarterly</a
+                >
+                <a class="donate-link" onclick="createModal('Once')"
+                  >Danate Once</a
+                >
               </div>
             </li>
           </ul>
@@ -198,15 +205,23 @@
               </button>
             </li>
 
-            <li class="hamburger-nav-link"><a href="#">About Us</a></li>
-            <li class="hamburger-nav-link"><a href="#">Our Work</a></li>
-            <li class="hamburger-nav-link"><a href="#">Stories</a></li>
-            <li class="hamburger-nav-link"><a href="#">Take Actions</a></li>
-            <li class="hamburger-nav-link hamburger-btn cmn-btn">
+            <li class="hamburger-nav-link">
+              <a href="#company-section">About Us</a>
+            </li>
+            <li class="hamburger-nav-link">
+              <a href="#business-section">Our Work</a>
+            </li>
+            <li class="hamburger-nav-link">
+              <a href="#project-section">Stories</a>
+            </li>
+            <li class="hamburger-nav-link">
+              <a href="#subscribe-section">Take Actions</a>
+            </li>
+            <!-- <li class="hamburger-nav-link hamburger-btn cmn-btn">
               <a href="#" id="style-2" data-replace="HEART♡"
                 ><span>Donate</span></a
               >
-            </li>
+            </li> -->
           </ul>
         </label>
 
@@ -214,7 +229,7 @@
       </nav>
     </header>
 
-    <!--------------------------- #1 ---------------------------------->
+    <!--------------------------- #1 ------------------------------------>
 
     <section class="hero-section">
       <div class="hero-container">
@@ -222,6 +237,7 @@
           <h2>Uniting Hearts, Healing the World</h2>
           <span>Together, We Can Overcome World Disasters!</span>
         </div>
+
         <div class="hero-pic">
           <span
             class="background-image"
@@ -237,7 +253,11 @@
     <section class="company-section" id="company-section">
       <div class="company-container">
         <div class="company-text-box">
-          <h3><strong>WORLD HEART</strong>,<br />In the heart of the world!</h3>
+          <h3>
+            <strong>WORLD HEART</strong>,<br />In the heart of the world!
+            <div class="title-line"></div>
+          </h3>
+
           <p>
             WORLD HEART connects nonprofits, donors, and companies, fostering
             positive change. With compassion at its core, we empower fellow NGOs
@@ -326,7 +346,10 @@
     <section class="business-section" id="business-section">
       <div class="business-container">
         <div class="business-title">
-          <h3>Together we thrive</h3>
+          <h3>
+            Together we thrive
+            <div class="title-line"></div>
+          </h3>
         </div>
         <div class="business-content-box">
           <div class="business-case business-case-volunteer">
@@ -713,7 +736,10 @@
     <section class="project-section" id="project-section">
       <div class="project-container">
         <div class="project-title">
-          <h3>What we focus</h3>
+          <h3>
+            What we focus
+            <div class="title-line"></div>
+          </h3>
         </div>
         <div class="project-content-wrapper">
           <div class="project-case project-case-diasters">
@@ -805,26 +831,31 @@
     </section>
 
     <!--------------------------- #5 ---------------------------------->
-    <section class="subscribe-section">
-      <h3>Subscribe the latest news letter of<br />WORLD HEART</h3>
-      <div class="subsribe-box">
+    <section class="subscribe-section" id="subscribe-section">
+      <h3>
+        Make a Global Impact <br />Join the World Heart Movement Today!
+        <div class="title-line"></div>
+      </h3>
+      <form class="subscribe-form">
         <input
           type="email"
           name="EMAIL"
           maxlength="200"
           placeholder="email_address@example.com"
-          required=""
+          required
           title="Email address"
+          id="subscribe-input"
         /><button class="cmn-btn subscribe-btn" type="submit">
           <a href="#" id="style-2" data-replace="HEART♡"
             ><span>Subscribe</span></a
           >
         </button>
-      </div>
+      </form>
     </section>
 
     <footer>
       <p>Copyright &copy; 2023 WORLD HEART. All rights reserved.</p>
     </footer>
+    <script src="/js/script.js"></script>
   </body>
 </html>

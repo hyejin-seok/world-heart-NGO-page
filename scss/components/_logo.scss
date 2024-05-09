@@ -36,6 +36,9 @@
     @media (max-width: 580px) {
       font-size: 1.3rem;
     }
+    @media (max-width: 400px) {
+      font-size: 1.1rem;
+    }
   }
 
   svg {
@@ -47,6 +50,10 @@
     @media (max-width: 580px) {
       width: 40px;
       height: 40px;
+    }
+    @media (max-width: 400px) {
+      width: 30px;
+      height: 30px;
     }
   }
 }
