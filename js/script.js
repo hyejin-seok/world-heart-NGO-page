@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
       modal.style.position = "fixed";
       modalOverlay.style.display = "block";
 
-      emailInput.value = "";
+      emailInput.value = ""; // Clear the email input field
     };
 
     showModal();
@@ -172,4 +172,14 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   subscribeForm.addEventListener("submit", subscribeModal);
+});
+
+// Hamburger Nav
+
+const hamburgerNavLinks = document.querySelectorAll(".hamburger-nav-link");
+
+hamburgerNavLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    document.getElementById("close-btn-hamburger").click();
+  });
 });

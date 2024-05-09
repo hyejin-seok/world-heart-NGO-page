@@ -270,6 +270,7 @@ footer p {
   .company-section .company-container .company-text-box p {
     font-size: 1rem;
     padding: 0 30px;
+    margin-bottom: 30px;
   }
 }
 .company-section .company-container .company-data-box {
