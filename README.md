@@ -11,7 +11,7 @@
 ## Description
 
 
-&nbsp;This application is a single-page application (SPA) developed using HTML, SASS, JavaScript, and Webpack. Initially, I created the app framework using only HTML and SASS as part of my early learning process. Following my learning JavaScript, I implemented it using Webpack.
+&nbsp;This application is a single-page application (SPA) developed using HTML, SASS, JavaScript, and Webpack. Initially, I created the app framework using only HTML and SASS, without the use of any CSS libraries, as part of my early learning process. Following my learning JavaScript, I implemented it using Webpack.
 
 &nbsp;The motivation behind building this NGO app stems from the multitude of global issues such as climate change, wars, diseases, poverty, and more. It is my hope that people recognize the role of NGOs more prominently and take collective action for a better world.
 
@@ -62,4 +62,4 @@
 
 
 ## Contributor
-[Hyejin](https://github.com/hyejin-seok)
+🌻 [Hyejin](https://github.com/hyejin-seok)
