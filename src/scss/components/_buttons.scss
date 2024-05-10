@@ -138,10 +138,11 @@
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border: 0;
+  color: $color-nav;
 
-  a::before,
-  a::after {
-    width: 90%;
+  &:hover {
+    color: $color-nav;
+    font-weight: bold;
   }
 }
 

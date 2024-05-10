@@ -10,6 +10,7 @@
   color: $color-main;
   text-align: left;
   cursor: pointer;
+
   svg {
     margin-right: 5px;
   }
@@ -55,15 +56,6 @@
       width: 30px;
       height: 30px;
     }
-  }
-}
-
-.hamburger-logo-wrapper {
-  width: 290px;
-  margin: 20px 45px;
-
-  @media (max-width: 385px) {
-    margin: 10px 20px;
   }
 }
 

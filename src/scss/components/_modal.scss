@@ -10,12 +10,16 @@
   z-index: 4;
 
   &-content {
-    width: 80%;
+    width: 75%;
     height: auto;
     display: flex;
     flex-direction: column;
     background-color: $color-bg;
     border-radius: 10px;
+
+    @media (max-width: 500px) {
+      width: 80%;
+    }
   }
 
   &-title {
@@ -76,6 +80,7 @@
       font-size: 1rem;
       border: 1px $color-main solid;
       border-radius: 5px;
+      padding-left: 10px;
       @media (max-width: 1000px) {
         width: 50%;
       }
