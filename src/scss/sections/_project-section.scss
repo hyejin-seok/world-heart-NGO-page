@@ -1,0 +1,150 @@
+.project-section {
+  @include sectionStyle;
+  min-height: 600px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .project-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .project-title {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+
+      h3 {
+        @include headingStyle;
+      }
+    }
+
+    .project-content-wrapper {
+      width: 100%;
+      height: auto;
+      min-height: 500px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      @media screen and (max-width: 1130px) {
+        flex-wrap: wrap;
+      }
+
+      .project-case {
+        width: 25%;
+        height: auto;
+        min-height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin: 0 15px;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+
+        &:hover .project-overlay {
+          top: 0;
+        }
+
+        &:hover .project-case-name {
+          display: none;
+        }
+
+        @media screen and (max-width: 1130px) {
+          width: 40%;
+          margin: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+          width: 70%;
+          margin: 20px;
+        }
+
+        @media screen and (max-width: 520px) {
+          width: 90%;
+        }
+
+        .project-case-name {
+          font-size: 1.6rem;
+          color: $color-bg;
+          padding: 0 15px 25px;
+          text-align: center;
+        }
+
+        .project-overlay {
+          width: 100%;
+          height: 100%;
+          top: 0;
+          top: -100%;
+          position: absolute;
+          background: rgba(0, 0, 0, 0.5);
+          color: $color-bg;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          transition: top 0.7s;
+          font-size: 1.2rem;
+          text-align: center;
+
+          h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+          }
+
+          p {
+            padding: 0 20px;
+          }
+        }
+      }
+
+      .project-case-diasters {
+        background: linear-gradient(
+            to bottom,
+            rgba(41, 53, 65, 0) 0,
+            rgba(41, 53, 65, 0.8) 90%,
+            #293541 100%
+          ),
+          url(/images/wildfire.jpg) no-repeat center/cover;
+      }
+
+      .project-case-violence {
+        background: linear-gradient(
+            to bottom,
+            rgba(41, 53, 65, 0) 0,
+            rgba(41, 53, 65, 0.8) 90%,
+            #293541 100%
+          ),
+          url(/images/violence.jpg) no-repeat center/cover;
+      }
+
+      .project-case-poverty {
+        background: linear-gradient(
+            to bottom,
+            rgba(41, 53, 65, 0) 0,
+            rgba(41, 53, 65, 0.8) 90%,
+            #293541 100%
+          ),
+          url(/images/poverty.jpg) no-repeat center/cover;
+      }
+
+      .project-case-refugees {
+        background: linear-gradient(
+            to bottom,
+            rgba(41, 53, 65, 0) 0,
+            rgba(41, 53, 65, 0.8) 90%,
+            #293541 100%
+          ),
+          url(/images/refugees.jpeg) no-repeat center/cover;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+<div class="modal-overlay"></div>
+<div id="donate-modal" class="modal">
+  <div class="modal-content">
+    <div class="close-btn" id="donate-close-btn"></div>
+    <div class="modal-title">
+      <h2>Donate Your Heart ${frequency}</h2>
+      <p>
+        Your generosity fuels our mission to make a difference. <br />Thank you
+        for your heart. <br />We'll send you an email shortly to help you set up
+        your donation.
+      </p>
+    </div>
+    <form class="modal-form">
+      <div class="modal-container">
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="John Doe"
+          minlength="1"
+          required
+        />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="example@example.com"
+          required
+        />
+        <label for="phone">Phone Number (Include Country Code):</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="1-234-567-8900"
+          min="10"
+          max="20"
+          required
+        />
+        <button class="cmn-btn" id="submit-btn" type="submit">SUBMIT</button>
+      </div>
+    </form>
+  </div>
+</div>
