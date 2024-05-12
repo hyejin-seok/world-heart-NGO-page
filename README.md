@@ -17,20 +17,8 @@
 
 &nbsp;World Heart is a nonprofit organization committed to connecting donors with grassroots projects worldwide. This SPA application provides insights into the organization's mission, ongoing projects, and provides avenues for users to contribute. 
 
-
 <BR />
-[HERO SECTION]
-<img width="1424" alt="Screenshot: hero page of world heart NGO app" src="https://github.com/hyejin-seok/NGO-Project/assets/132785671/c567f81f-4e5f-43ff-847f-a8e469dbc76d">
-<BR />
-<img width="1413" alt="Screenshot 2024-05-10 at 03 05 39" src="https://github.com/hyejin-seok/NGO-Project/assets/132785671/8f88971f-95f5-4c7f-9ec2-24ea834ec315">
-<BR />
-<img width="1423" alt="Screenshot 2024-05-10 at 03 05 56" src="https://github.com/hyejin-seok/NGO-Project/assets/132785671/7aba9f65-96d2-47f3-b060-285ceda0750e">
-[PROJECTS PAGE] (with hover effect)
-<img width="1424" alt="Screenshot: projects page of world heart NGO app" src="https://github.com/hyejin-seok/NGO-Project/assets/132785671/3582899e-dfd4-481a-b6e5-149a47806338">
-<BR />
-<img width="1419" alt="Screenshot 2024-05-10 at 03 06 11" src="https://github.com/hyejin-seok/NGO-Project/assets/132785671/6e044b14-43bb-4073-82cf-44f6c224f1dc">
-
-
+<img width="1420" alt="Screenshot: world heart NGO app" src="https://github.com/hyejin-seok/world-heart-NGO-app/assets/132785671/17eadb46-84c4-4e93-a8e0-094e57632dd5">
 
 
 ## Features
