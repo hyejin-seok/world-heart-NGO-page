@@ -1,4 +1,4 @@
-# World Heart - NGO Application
+# World Heart - NGO Page
 
 ## Table of contents
 
@@ -11,11 +11,11 @@
 ## Description
 
 
-&nbsp;This application is a single-page application (SPA) developed using HTML, SASS, JavaScript, and Webpack. Initially, I created the app framework using only HTML and SASS, without the use of any CSS libraries, as part of my early learning process. Following my learning JavaScript, I implemented it using Webpack.
+&nbsp;This is a landing page developed using HTML, SASS, JavaScript, and Webpack. Initially, I created the framework using only HTML and SASS, without the use of any CSS libraries, as part of my early learning process. Following my learning JavaScript, I implemented it using Webpack.
 
-&nbsp;The motivation behind building this NGO app stems from the multitude of global issues such as climate change, wars, diseases, poverty, and more. It is my hope that people recognize the role of NGOs more prominently and take collective action for a better world.
+&nbsp;The motivation behind building this NGO page stems from the multitude of global issues such as climate change, wars, diseases, poverty, and more. It is my hope that people recognize the role of NGOs more prominently and take collective action for a better world.
 
-&nbsp;World Heart is a nonprofit organization committed to connecting donors with grassroots projects worldwide. This SPA application provides insights into the organization's mission, ongoing projects, and provides avenues for users to contribute. 
+&nbsp;World Heart is a nonprofit organization committed to connecting donors with grassroots projects worldwide. This page provides insights into the organization's mission, ongoing projects, and provides avenues for users to contribute. 
 
 <BR />
 <img width="1420" alt="Screenshot: world heart NGO app" src="https://github.com/hyejin-seok/world-heart-NGO-app/assets/132785671/17eadb46-84c4-4e93-a8e0-094e57632dd5">
@@ -39,7 +39,7 @@
 
 - HTML: The structure of the web pages is defined using HTML5.
 - SCSS: CSS styles are written using SCSS preprocessor to enhance maintainability and modularity.
-- Vanilla JavaScript: The application logic and interactivity are implemented using vanilla JavaScript for simplicity and performance.
+- Vanilla JavaScript: The logic and interactivity are implemented using vanilla JavaScript for simplicity and performance.
 - Webpack: Webpack is used as a module bundler to manage dependencies and optimize the build process. [Webpack](https://webpack.js.org/)
 
 
