@@ -113,7 +113,7 @@
             rgba(41, 53, 65, 0.8) 90%,
             #293541 100%
           ),
-          url(/images/wildfire.jpg) no-repeat center/cover;
+          $wildfire-image no-repeat center/cover;
       }
 
       .project-case-violence {
@@ -123,7 +123,7 @@
             rgba(41, 53, 65, 0.8) 90%,
             #293541 100%
           ),
-          url(/images/violence.jpg) no-repeat center/cover;
+          $violence-image no-repeat center/cover;
       }
 
       .project-case-poverty {
@@ -133,7 +133,7 @@
             rgba(41, 53, 65, 0.8) 90%,
             #293541 100%
           ),
-          url(/images/poverty.jpg) no-repeat center/cover;
+          $poverty-image no-repeat center/cover;
       }
 
       .project-case-refugees {
@@ -143,7 +143,7 @@
             rgba(41, 53, 65, 0.8) 90%,
             #293541 100%
           ),
-          url(/images/refugees.jpeg) no-repeat center/cover;
+          $refugees-image no-repeat center/cover;
       }
     }
   }
