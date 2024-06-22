@@ -1,4 +1,4 @@
-import "../scss/main.scss";
+// import "../scss/main.scss";
 import donateModal from "./donateModal";
 import hamburgernav from "./hamburgerNav";
 import domEvents from "./subscribeModal";
