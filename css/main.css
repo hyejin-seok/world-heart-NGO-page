@@ -24,6 +24,7 @@ body :visited {
 }
 body a:hover {
   color: #b3404a;
+  font-weight: bold;
 }
 
 .title-line {
@@ -340,7 +341,7 @@ footer p {
 .hero-pic {
   width: 100%;
   height: 85%;
-  background: url(/images/flood-hero.jpg) no-repeat center/cover;
+  background: url("../../../images/flood-hero.jpg") no-repeat center/cover;
   overflow: hidden;
   position: relative;
   margin-top: -40px;
@@ -548,16 +549,16 @@ footer p {
   padding: 0 20px;
 }
 .project-section .project-container .project-content-wrapper .project-case-diasters {
-  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url(/images/wildfire.jpg) no-repeat center/cover;
+  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("../../../images/wildfire.jpg") no-repeat center/cover;
 }
 .project-section .project-container .project-content-wrapper .project-case-violence {
-  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url(/images/violence.jpg) no-repeat center/cover;
+  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("../../../images/violence.jpg") no-repeat center/cover;
 }
 .project-section .project-container .project-content-wrapper .project-case-poverty {
-  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url(/images/poverty.jpg) no-repeat center/cover;
+  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("../../../images/poverty.jpg") no-repeat center/cover;
 }
 .project-section .project-container .project-content-wrapper .project-case-refugees {
-  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url(/images/refugees.jpeg) no-repeat center/cover;
+  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("../../../images/refugees.jpeg") no-repeat center/cover;
 }
 
 .subscribe-section {
@@ -609,11 +610,23 @@ footer p {
   display: inline-block;
   vertical-align: bottom;
   border: 1px solid #f77984;
+  border-right: 0;
   font-size: 1rem;
 }
 @media screen and (max-width: 650px) {
   .subscribe-section input {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .subscribe-section input {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .subscribe-section input {
     width: 200px;
+    font-size: 0.8rem;
   }
 }
 
@@ -750,10 +763,11 @@ footer p {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border: 0;
+  color: #fff5ee;
 }
-.subscribe-btn a::before,
-.subscribe-btn a::after {
-  width: 90%;
+.subscribe-btn:hover {
+  color: #fff5ee;
+  font-weight: bold;
 }
 
 .close-btn {
@@ -784,6 +798,7 @@ footer p {
   top: 100%;
   left: -55%;
   background-color: #fff5ee;
+  border-radius: 7px;
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -791,7 +806,7 @@ footer p {
   text-align: center;
   line-height: 30px;
 }
-.dropdown-box .dropdown-content .donate-link {
+.dropdown-box .dropdown-content a {
   color: #32404e;
   padding: 12px 16px;
   text-decoration: none;
@@ -805,15 +820,25 @@ footer p {
   font-size: 1rem;
   font-weight: 600;
 }
-.dropdown-box .dropdown-content .donate-link:hover {
+.dropdown-box .dropdown-content a:hover {
   background-color: #f77984;
+  color: #fff5ee;
+  font-weight: 600;
 }
-.dropdown-box .dropdown-content .donate-link:link,
-.dropdown-box .dropdown-content .donate-link :visited {
+.dropdown-box .dropdown-content a:link,
+.dropdown-box .dropdown-content a :visited {
   color: #32404e;
 }
-.dropdown-box .dropdown-content .donate-link::before, .dropdown-box .dropdown-content .donate-link::after {
+.dropdown-box .dropdown-content a::before, .dropdown-box .dropdown-content a::after {
   content: none;
+}
+.dropdown-box .dropdown-content a:first-child {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.dropdown-box .dropdown-content a:last-child {
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 .dropdown-box:hover .dropdown-content {
   display: flex;
@@ -896,8 +921,61 @@ label[for=hamburger-nav] {
   transform: translateX(-100%);
   transition: transform 0.3s;
 }
-label[for=hamburger-nav] .hamburger-nav-link {
-  margin: 50px 100px;
+label[for=hamburger-nav] ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-logo-wrapper {
+  width: 290px;
+  margin: 50px 0 0;
+}
+@media (max-width: 385px) {
+  .hamburger-logo-wrapper {
+    margin: 10px 20px;
+  }
+}
+
+.hamburger-search-box {
+  margin: 30px 0 0;
+  list-style: none;
+}
+.hamburger-search-box button {
+  border: none;
+  background-color: #fff5ee;
+  cursor: pointer;
+  border-bottom: 1px solid #b3404a;
+  margin-bottom: 40px;
+  padding-right: 5px;
+}
+.hamburger-search-box button svg {
+  margin: 0 0 2px;
+}
+.hamburger-search-box input {
+  width: 250px;
+  height: 35px;
+  background-color: #fff5ee;
+  display: inline-block;
+  vertical-align: bottom;
+  border: 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.3px;
+}
+@media (max-width: 385px) {
+  .hamburger-search-box input {
+    width: 200px;
+  }
+}
+.hamburger-search-box input::placeholder {
+  color: #f77984;
+  text-align: center;
+}
+
+.hamburger-nav-link {
+  font-size: 1.2rem;
+  margin: 30px 0;
   list-style-type: none;
   color: #b3404a;
   cursor: pointer;
@@ -914,35 +992,6 @@ label[for=hamburger-nav] .hamburger-nav-link {
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden;
   background: black;
-}
-
-.hamburger-search-box {
-  margin: 40px;
-  list-style: none;
-}
-.hamburger-search-box button {
-  border: none;
-  background-color: #fff5ee;
-  cursor: pointer;
-}
-.hamburger-search-box input {
-  width: 270px;
-  height: 35px;
-  background-color: #fff5ee;
-  padding-left: 15px;
-  display: inline-block;
-  vertical-align: bottom;
-  border: 0;
-  margin-left: 5px;
-  border-bottom: 1px solid #b3404a;
-}
-@media (max-width: 385px) {
-  .hamburger-search-box input {
-    width: 200px;
-  }
-}
-.hamburger-search-box input::placeholder {
-  color: #b3404a;
 }
 
 .logo-box {
@@ -1011,16 +1060,6 @@ label[for=hamburger-nav] .hamburger-nav-link {
   }
 }
 
-.hamburger-logo-wrapper {
-  width: 290px;
-  margin: 20px 45px;
-}
-@media (max-width: 385px) {
-  .hamburger-logo-wrapper {
-    margin: 10px 20px;
-  }
-}
-
 .company-data-logo {
   width: 25%;
   min-height: 120px;
@@ -1073,12 +1112,17 @@ label[for=hamburger-nav] .hamburger-nav-link {
   z-index: 4;
 }
 .modal-content {
-  width: 80%;
+  width: 75%;
   height: auto;
   display: flex;
   flex-direction: column;
   background-color: #fefefe;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .modal-content {
+    width: 80%;
+  }
 }
 .modal-title {
   width: 100%;
@@ -1147,6 +1191,7 @@ label[for=hamburger-nav] .hamburger-nav-link {
   font-size: 1rem;
   border: 1px #b3404a solid;
   border-radius: 5px;
+  padding-left: 10px;
 }
 @media (max-width: 1000px) {
   .modal-container input {
