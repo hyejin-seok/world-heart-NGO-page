@@ -341,7 +341,7 @@ footer p {
 .hero-pic {
   width: 100%;
   height: 85%;
-  background: url("../../../images/flood-hero.jpg") no-repeat center/cover;
+  background: url("/world-heart-NGO-page/images/flood-hero.jpg") no-repeat center/cover;
   overflow: hidden;
   position: relative;
   margin-top: -40px;
@@ -549,16 +549,16 @@ footer p {
   padding: 0 20px;
 }
 .project-section .project-container .project-content-wrapper .project-case-diasters {
-  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("../../../images/wildfire.jpg") no-repeat center/cover;
+  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("/world-heart-NGO-page/images/wildfire.jpg") no-repeat center/cover;
 }
 .project-section .project-container .project-content-wrapper .project-case-violence {
-  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("../../../images/violence.jpg") no-repeat center/cover;
+  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("/world-heart-NGO-page/images/violence.jpg") no-repeat center/cover;
 }
 .project-section .project-container .project-content-wrapper .project-case-poverty {
-  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("../../../images/poverty.jpg") no-repeat center/cover;
+  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("/world-heart-NGO-page/images/poverty.jpg") no-repeat center/cover;
 }
 .project-section .project-container .project-content-wrapper .project-case-refugees {
-  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("../../../images/refugees.jpeg") no-repeat center/cover;
+  background: linear-gradient(to bottom, rgba(41, 53, 65, 0) 0, rgba(41, 53, 65, 0.8) 90%, #293541 100%), url("/world-heart-NGO-page/images/refugees.jpeg") no-repeat center/cover;
 }
 
 .subscribe-section {
