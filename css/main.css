@@ -1150,8 +1150,16 @@ label[for=hamburger-nav] ul {
   border-radius: 10px;
 }
 @media (max-width: 500px) {
+  .modal-content #donate-close-btn {
+    min-height: 40px;
+    margin: 10px;
+  }
+}
+@media (max-width: 500px) {
   .modal-content {
-    width: 80%;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
   }
 }
 .modal-title {
@@ -1180,6 +1188,7 @@ label[for=hamburger-nav] ul {
 @media (max-width: 550px) {
   .modal-title p {
     font-size: 1rem;
+    margin-bottom: 25px;
   }
 }
 .modal-container {
@@ -1210,7 +1219,7 @@ label[for=hamburger-nav] ul {
 }
 @media (max-width: 450px) {
   .modal-container label {
-    width: 80%;
+    width: 90%;
   }
 }
 .modal-container input {
@@ -1240,7 +1249,7 @@ label[for=hamburger-nav] ul {
 }
 @media (max-width: 450px) {
   .modal-container input {
-    width: 80%;
+    width: 90%;
   }
 }
 .modal-container button {
@@ -1249,6 +1258,11 @@ label[for=hamburger-nav] ul {
   color: #fff5ee;
   border: 0;
   margin: 30px 0 40px;
+}
+@media (max-width: 450px) {
+  .modal-container button {
+    margin: 10px 0 30px;
+  }
 }
 
 .modal-overlay {
