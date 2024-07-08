@@ -15,6 +15,8 @@
 
     @media screen and (max-width: 650px) {
       font-size: 1.3rem;
+      margin-left: 10px;
+      margin-right: 10px;
     }
   }
 
@@ -41,6 +43,20 @@
     @media screen and (max-width: 390px) {
       width: 200px;
       font-size: 0.8rem;
+    }
+  }
+
+  .subscribe-icon {
+    display: inline-block;
+    vertical-align: middle;
+
+    svg {
+      margin-left: -7px;
+
+      @media screen and (max-width: 650px) {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 }
