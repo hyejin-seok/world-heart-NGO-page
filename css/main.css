@@ -50,6 +50,11 @@ header {
   z-index: 3;
   top: 0;
 }
+@media (max-width: 500px) {
+  header {
+    height: 80px;
+  }
+}
 header nav {
   width: 80%;
   height: 100%;
@@ -61,6 +66,11 @@ header nav {
 @media (max-width: 1430px) {
   header nav {
     width: 95%;
+  }
+}
+@media (max-width: 450px) {
+  header nav {
+    width: 100%;
   }
 }
 header nav .main-menu {
@@ -1026,6 +1036,11 @@ label[for=hamburger-nav] ul {
     min-width: 230px;
   }
 }
+@media (max-width: 400px) {
+  .nav-logo-wrapper {
+    min-width: 180px;
+  }
+}
 @media (max-width: 1024px) {
   .nav-logo-wrapper span {
     font-size: 1.8rem;
@@ -1038,7 +1053,7 @@ label[for=hamburger-nav] ul {
 }
 @media (max-width: 400px) {
   .nav-logo-wrapper span {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 1024px) {
@@ -1055,8 +1070,8 @@ label[for=hamburger-nav] ul {
 }
 @media (max-width: 400px) {
   .nav-logo-wrapper svg {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
   }
 }
 

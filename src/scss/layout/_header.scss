@@ -11,6 +11,10 @@ header {
   z-index: 3;
   top: 0;
 
+  @media (max-width: 500px) {
+    height: 80px;
+  }
+
   nav {
     width: 80%;
     height: 100%;
@@ -21,6 +25,9 @@ header {
 
     @media (max-width: 1430px) {
       width: 95%;
+    }
+    @media (max-width: 450px) {
+      width: 100%;
     }
 
     .main-menu {
