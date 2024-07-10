@@ -18,7 +18,8 @@
 &nbsp;World Heart is a nonprofit organization committed to connecting donors with grassroots projects worldwide. This page provides insights into the organization's mission, ongoing projects, and provides avenues for users to contribute. 
 
 <BR />
-<img width="1420" alt="Screenshot: world heart NGO app" src="https://github.com/hyejin-seok/world-heart-NGO-app/assets/132785671/17eadb46-84c4-4e93-a8e0-094e57632dd5">
+
+![ngo-2](https://github.com/hyejin-seok/world-heart-NGO-page/assets/132785671/41266b04-68d7-4e92-8983-97e576c212ac)
 
 
 ## Features
