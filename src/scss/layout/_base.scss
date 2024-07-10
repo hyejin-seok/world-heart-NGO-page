@@ -114,4 +114,7 @@ body {
   background-color: $color-hover;
   margin-top: 10px;
   border-radius: 5px;
+  @media screen and (max-width: 650px) {
+    width: 150px;
+  }
 }

@@ -36,6 +36,11 @@ body a:hover {
   margin-top: 10px;
   border-radius: 5px;
 }
+@media screen and (max-width: 650px) {
+  .title-line {
+    width: 150px;
+  }
+}
 
 header {
   width: 100vw;
