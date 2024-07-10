@@ -30,7 +30,7 @@ body a:hover {
 .title-line {
   height: 10px;
   margin: 0 auto;
-  width: 80%;
+  width: 200px;
   display: flex;
   background-color: #f77984;
   margin-top: 10px;
@@ -114,7 +114,12 @@ footer p {
   flex-direction: row;
   color: #fefefe;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+}
+@media (max-width: 1000px) {
+  footer p {
+    font-size: 0.8rem;
+  }
 }
 
 .business-section {
@@ -143,7 +148,6 @@ footer p {
 .business-section .business-container .business-title h3 {
   font-size: 1.7rem;
   font-weight: 600;
-  text-transform: capitalize;
   text-align: center;
   margin: 50px;
 }
@@ -258,7 +262,6 @@ footer p {
 .company-section .company-container .company-text-box h3 {
   font-size: 1.7rem;
   font-weight: 600;
-  text-transform: capitalize;
   text-align: center;
   margin: 50px;
   margin-top: 30px;
@@ -464,7 +467,6 @@ footer p {
 .project-section .project-container .project-title h3 {
   font-size: 1.7rem;
   font-weight: 600;
-  text-transform: capitalize;
   text-align: center;
   margin: 50px;
 }
@@ -589,7 +591,6 @@ footer p {
 .subscribe-section h3 {
   font-size: 1.7rem;
   font-weight: 600;
-  text-transform: capitalize;
   text-align: center;
   margin: 50px;
   margin-bottom: 60px;

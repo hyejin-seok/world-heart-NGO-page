@@ -12,5 +12,8 @@ footer p {
   flex-direction: row;
   color: $color-bg;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  @media (max-width: 1000px) {
+    font-size: 0.8rem;
+  }
 }

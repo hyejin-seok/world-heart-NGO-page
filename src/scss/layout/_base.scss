@@ -94,7 +94,6 @@ body {
 @mixin headingStyle {
   font-size: 1.7rem;
   font-weight: 600;
-  text-transform: capitalize;
   text-align: center;
   margin: 50px;
 
@@ -110,7 +109,7 @@ body {
 .title-line {
   height: 10px;
   margin: 0 auto;
-  width: 80%;
+  width: 200px;
   display: flex;
   background-color: $color-hover;
   margin-top: 10px;
